@@ -42,7 +42,7 @@ ul{
    }
    .field-2{
     border: none;
-    border-bottom: 3px solid #2196f3;
+    border-bottom: 3px solid #3f51b5;
    }
    .field-3{
     border: none;
@@ -57,7 +57,7 @@ ul{
     float: left;
     } 
     .top{
-        border: 15px solid black;
+        border: 5px solid black;
         }
         .line{
             gap: 42px;
@@ -116,7 +116,17 @@ ul{
     }
 
 
-    
+    .heading-2 {
+        /* color: #959494; */
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .para-2 {
+        /* color: #8b8989; */
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .tom {
+        background-color: #3f51b5;
+    }
 
 
 
@@ -175,5 +185,53 @@ ul{
             height: 0;
             width: 0;
         }
+        .makes{
+            height: 70px;
+            width: 70px   ;
+        }
+        .makes:hover{
+            color: #f4623a;
+        }
+        .disk{
+            display: flex;
+            list-style: none;
+        }
+        .disks{
+            padding: 0.5px 15px 0.5px 0px;
+        }
+        .fake{
+            display: flex;
+            list-style: none;
+            font-size: 20px;
+        }
         
-        
+        .icons{
+            background: none;
+
+            padding: 5px;
+            /* background-color: rgba(0, 0, 0, 0.5); */
+            /* margin-right: 5px; */
+        }
+        .iron {
+            float: left;
+            padding: 8px;
+          }
+           .disk{
+              display: flex;
+              list-style: none;
+          }
+          .disks{
+              padding: 0.5px 15px 0.5px 0px;
+          } 
+          .linked {
+            border-bottom: 2px solid #fff;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            width: 100%;
+            list-style: none;
+          }
+
+         .meet {
+            border-bottom: 2px solid #fff;
+
+         }
